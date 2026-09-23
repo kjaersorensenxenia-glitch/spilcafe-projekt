@@ -38,7 +38,7 @@
 
 
 body {
-  font-family: "luckiest guy";
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
   font-size: 12px;
   line-height: 1;
   background: var(--third-color);
@@ -191,7 +191,7 @@ header h1{font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 align-self: center;
 margin-bottom: 8px;}
 
-   header a{padding: 10px 22px;
+   .bookknap{padding: 10px 22px;
     border-radius: 100px;
     align-self: center;
     text-align: center;
@@ -203,7 +203,7 @@ font-size: 16px;
 font-weight: bold;
 cursor: pointer;}
 
-header a:hover {
+.bookknap:hover {
   background-color: #971417;
   color: #FFF6F1;
 }
