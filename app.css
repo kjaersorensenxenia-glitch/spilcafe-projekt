@@ -6,7 +6,7 @@
   /* Colors */
   --primary-color: #505C38;
   --secondary-color: #000000;
-  --third-color: #f6c9c9;
+  --third-color: #FFF6F1;
 
   /* Text - colors */
   --primary-text: white;
@@ -14,7 +14,7 @@
 
   /* Backgrounds */
   --background: #505C38;
-  --background-card: #f6c9c9;
+  --background-card: #FFF6F1;
 
   /* Semantic */
   --warning: #F9DB25;

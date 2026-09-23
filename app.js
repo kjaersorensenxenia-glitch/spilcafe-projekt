@@ -85,7 +85,7 @@ function displayGame(game) {
   newCard.addEventListener("keydown", function (event) {
     if (event.key === "Enter" || event.key === " ") {
       event.preventDefault(); // Forhindre scroll ved mellemrum
-      showgameModal(Game); // Vis modal med spil detaljer
+      showgameModal(game); // Vis modal med spil detaljer
     }
   });
 }
