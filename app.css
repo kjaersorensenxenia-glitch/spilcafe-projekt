@@ -4,7 +4,7 @@
 
 :root {
   /* Colors */
-  --primary-color: #BF171C;
+  --primary-color: #505C38;
   --secondary-color: #000000;
   --third-color: #f6c9c9;
 
@@ -13,7 +13,7 @@
   --secondary-text: black;
 
   /* Backgrounds */
-  --background: #BF171C;
+  --background: #505C38;
   --background-card: #f6c9c9;
 
   /* Semantic */
@@ -36,14 +36,15 @@
   padding: 0;
 }
 
+
 body {
   font-family: "luckiest guy";
-  font-size: 2rem;
-  line-height: 1.6;
+  font-size: 12px;
+  line-height: 1;
   background: var(--third-color);
   color: var(--text);
   min-height: 100vh;
-  letter-spacing: 5px;
+
 }
 
 /* =====================
@@ -167,24 +168,47 @@ main {
    ===================== */
 header {
   background: var(--primary-color);
-  backdrop-filter: blur(20px) saturate(180%);
   border-bottom: 1px solid rgba(172, 198, 201, 0.2);
-  color: var(--primary-text);
-  padding: 1rem 0;
-  text-align: center;
+  padding: 8px 0;
+  display: flex;
+  justify-content: space-around;
   position: fixed;
   top: 0;
   left: 0;
   right: 0;
   z-index: 1000;
   transition: var(--transition);
+  
+ 
 }
 
-header h1 {
-  font-size: clamp(1.5rem, 4vw, 2.5rem);
-  font-weight: 500;
-  letter-spacing: 5px;
+header img{ max-width: 100%; width: 100px; height: auto; }
+header h1{font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
+    font-weight: 50; 
+    color: white;
+  font-size: 40px; 
+  letter-spacing: 2px;
+align-self: center;
+margin-bottom: 8px;}
+
+   header a{padding: 10px 22px;
+    border-radius: 100px;
+    align-self: center;
+    text-align: center;
+    background-color:#FFF6F1; 
+    color:#492E2E;
+   border: 1px solid;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+font-size: 16px;
+font-weight: bold;
+cursor: pointer;}
+
+header a:hover {
+  background-color: #971417;
+  color: #FFF6F1;
 }
+    
+
 
 footer {
   background: var(--primary-color);
