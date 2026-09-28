@@ -20,7 +20,7 @@ function initApp() {
 // #2: Fetch games from JSON file - asynkron funktion der henter data
 async function getGames() {
   // Hent data fra URL - await venter på svar før vi går videre
-  const response = await fetch("https://raw.githubusercontent.com/cederdorff/race/refs/heads/master/data/games.json");
+  const response = await fetch("spil.json");
 
   // Pars JSON til JS array og gem i global variabel, der er tilgængelig for alle funktioner
   allGames = await response.json();
