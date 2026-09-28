@@ -228,20 +228,8 @@
     "regler": "Find ud af hvem der er liberale og hvem der er fascister før det er for sent.",
     "description": "Dramatisk deduktionsspil om politisk intrige.",
     "image": "img/games/secret-hitler.webp"
-  },
-  {
-    "id": 23,
-    "title": "MicroMacro: Crime City",
-    "genre": "Detektiv",
-    "playtime": "15-45 min",
-    "players": "1-4",
-    "sprog": "Dansk",
-    "alder": "12+",
-    "svaerhedsgrad": "Medium",
-    "regler": "Brug forstørrelsesglasset til at følge mistænkte og løse forbrydelser på det store kort.",
-    "description": "Løs forbrydelser på et kæmpe detaljeret bykort.",
-    "image": "img/games/micromacro.webp"
-  },
+  }
+ 
   
  
 ]
