@@ -1,177 +1,271 @@
-[
+
+ 
+  
+  
+    [
   {
     "id": 1,
     "title": "Matador",
-    "description": "Dansk klassiker inspireret af Monopoly.",
-    "image": "img/games/matador.webp",
-    "genre": "Familie"
+    "genre": "Familie",
+    "playtime": "30-60 min",
+    "players": "2-6",
+    "sprog": "Dansk",
+    "alder": "8+",
+    "svaerhedsgrad": "Let",
+    "regler": "Klassisk ejendomshandel hvor det gælder om at opkøbe grunde og huse.",
+    "description": "Klassisk dansk brætspil om ejendomshandel.",
+    "image": "img/games/matador.webp"
   },
   {
     "id": 2,
     "title": "Ludo",
-    "description": "Klassisk terningspil for hele familien.",
-    "image": "img/games/ludo.webp",
-    "genre": "Familie"
+    "genre": "Familie",
+    "playtime": "30-60 min",
+    "players": "2-4",
+    "sprog": "Dansk",
+    "alder": "6+",
+    "svaerhedsgrad": "Let",
+    "regler": "Slå med terningen og få alle dine fire brikker sikkert i mål før modstanderne.",
+    "description": "Det velkendte terningespil for hele familien.",
+    "image": "img/games/ludo.webp"
   },
   {
     "id": 3,
     "title": "Uno",
-    "description": "Hurtigt og underholdende kortspil.",
-    "image": "img/games/uno.webp",
-    "genre": "Kortspil"
+    "genre": "Kortspil",
+    "playtime": "15-30 min",
+    "players": "2-10",
+    "sprog": "Dansk",
+    "alder": "7+",
+    "svaerhedsgrad": "Let",
+    "regler": "Match kort på farve eller tal og husk at råbe UNO når du har ét kort tilbage.",
+    "description": "Hurtigt og sjovt kortspil for alle aldre.",
+    "image": "img/games/uno.webp"
   },
   {
     "id": 4,
     "title": "Partners",
-    "description": "Minner om Ludo, men spilles i hold med kort.",
-    "image": "img/games/partners.webp",
-    "genre": "Strategi"
+    "genre": "Strategi",
+    "playtime": "45-60 min",
+    "players": "4",
+    "sprog": "Dansk",
+    "alder": "8+",
+    "svaerhedsgrad": "Medium",
+    "regler": "Spil sammen i par og brug kortene til at flytte brikkerne i mål.",
+    "description": "Taktisk holdspil der minder om Ludo med kort.",
+    "image": "img/games/partners.webp"
   },
   {
     "id": 5,
     "title": "Yatzy",
-    "description": "Klassisk terningspil om at samle point.",
-    "image": "img/games/yatzy.webp",
-    "genre": "Terning"
+    "genre": "Terning",
+    "playtime": "20-30 min",
+    "players": "2-6",
+    "sprog": "Dansk",
+    "alder": "5+",
+    "svaerhedsgrad": "Let",
+    "regler": "Kast fem terninger og saml de bedste kombinationer på pointblokken.",
+    "description": "Klassisk terningespil om at samle kombinationer.",
+    "image": "img/games/yatzy.webp"
   },
   {
     "id": 6,
     "title": "Catan",
-    "description": "Byg huse, veje og byer i et episk strategispil.",
-    "image": "img/games/catan.webp",
-    "genre": "Strategi"
+    "genre": "Strategi",
+    "playtime": "60-90 min",
+    "players": "3-4",
+    "sprog": "Dansk",
+    "alder": "10+",
+    "svaerhedsgrad": "Medium",
+    "regler": "Byg veje, huse og byer ved at handle med råstoffer som træ, uld og malm.",
+    "description": "Byg, handl og erobr på øen Catan.",
+    "image": "img/games/catan.webp"
   },
   {
     "id": 7,
     "title": "Ticket to Ride",
-    "description": "Saml togkort og forbind byer i Nordamerika eller Europa.",
-    "image": "img/games/tickettoride.webp",
-    "genre": "Strategi"
+    "genre": "Strategi",
+    "playtime": "30-60 min",
+    "players": "2-5",
+    "sprog": "Dansk",
+    "alder": "8+",
+    "svaerhedsgrad": "Medium",
+    "regler": "Saml togkort for at gøre krav på jernbaneruter og forbinde byer.",
+    "description": "Byg togruter på tværs af kontinentet.",
+    "image": "img/games/ticket-to-ride.webp"
   },
   {
     "id": 8,
     "title": "Carcassonne",
-    "description": "Læg brikker og opbyg det middelalderlige landskab.",
-    "image": "img/games/carcassonne.webp",
-    "genre": "Strategi"
+    "genre": "Strategi",
+    "playtime": "30-45 min",
+    "players": "2-5",
+    "sprog": "Dansk",
+    "alder": "7+",
+    "svaerhedsgrad": "Medium",
+    "regler": "Træk brikker efter tur for at bygge veje, byer og klostre.",
+    "description": "Læg brikker og byg middelalderlige landskaber.",
+    "image": "img/games/carcassonne.webp"
   },
   {
     "id": 9,
     "title": "Codenames",
-    "description": "Morsomt ordgætte-spil for to hold.",
-    "image": "img/games/codenames.webp",
-    "genre": "Selskab"
+    "genre": "Selskab",
+    "playtime": "15 min",
+    "players": "2-8",
+    "sprog": "Dansk",
+    "alder": "10+",
+    "svaerhedsgrad": "Let",
+    "regler": "Gæt dit holds hemmelige ord ud fra spionmesterens enkeltords-hint.",
+    "description": "Gæt ord ud fra hemmelige koder fra din spionmester.",
+    "image": "img/games/codenames.webp"
   },
   {
     "id": 10,
     "title": "Dixit",
-    "description": "Kreativt illustreret spil med fokus på fantasi og associationer.",
-    "image": "img/games/dixit.webp",
-    "genre": "Selskab"
+    "genre": "Selskab",
+    "playtime": "30 min",
+    "players": "3-6",
+    "sprog": "Dansk",
+    "alder": "8+",
+    "svaerhedsgrad": "Let",
+    "regler": "Brug din fantasi til at give spor til drømmeagtige billedkort.",
+    "description": "Billedrigt spil om fantasi og fortælling.",
+    "image": "img/games/dixit.webp"
   },
   {
     "id": 11,
     "title": "Pandemic",
-    "description": "Samarbejd om at redde verden fra globale epidemier.",
-    "image": "img/games/pandemic.webp",
-    "genre": "Samarbejde"
+    "genre": "Samarbejde",
+    "playtime": "45 min",
+    "players": "2-4",
+    "sprog": "Dansk",
+    "alder": "8+",
+    "svaerhedsgrad": "Svær",
+    "regler": "I taber eller vinder sammen ved at opfinde kure mod fire globale sygdomme.",
+    "description": "Arbejd sammen om at stoppe globale sygdomme.",
+    "image": "img/games/pandemic.webp"
   },
   {
     "id": 12,
     "title": "7 Wonders",
-    "description": "Byg dit eget antikke rige på tre tidsaldre.",
-    "image": "img/games/7wonders.webp",
-    "genre": "Strategi"
+    "genre": "Strategi",
+    "playtime": "30 min",
+    "players": "3-7",
+    "sprog": "Dansk",
+    "alder": "10+",
+    "svaerhedsgrad": "Medium",
+    "regler": "Træk kort for at opbygge militær, videnskab og vidundere i tre tidsaldre.",
+    "description": "Leder en antik civilisation til sejr.",
+    "image": "img/games/7wonders.webp"
   },
   {
     "id": 13,
     "title": "Azul",
-    "description": "Smukt og strategisk brikspil inspireret af portugisiske fliser.",
-    "image": "img/games/azul.webp",
-    "genre": "Familie"
+    "genre": "Familie",
+    "playtime": "30-45 min",
+    "players": "2-4",
+    "sprog": "Dansk",
+    "alder": "8+",
+    "svaerhedsgrad": "Medium",
+    "regler": "Saml matchende fliser og placer dem på dit bræt for at score flest point.",
+    "description": "Dekorer slottets vægge med smukke fliser.",
+    "image": "img/games/azul.webp"
   },
-  {
-    "id": 14,
-    "title": "Wingspan",
-    "description": "Opbyg dit eget fuglereservat i et prisbelønnet brætspil.",
-    "image": "img/games/wingspan.webp",
-    "genre": "Strategi"
-  },
-  {
-    "id": 15,
-    "title": "Terraforming Mars",
-    "description": "Forvandl den røde planet til en beboelig verden.",
-    "image": "img/games/terraformingmars.webp",
-    "genre": "Ekspert"
-  },
-  {
-    "id": 16,
-    "title": "Scythe",
-    "description": "Udforsk og erobr i et alternativt 1920'er Europa.",
-    "image": "img/games/scythe.webp",
-    "genre": "Ekspert"
-  },
-  {
-    "id": 17,
-    "title": "Splendor",
-    "description": "Saml ædelstene og opbyg din handelsvirksomhed.",
-    "image": "img/games/splendor.webp",
-    "genre": "Familie"
-  },
+  
+   
+ 
+   
   {
     "id": 18,
     "title": "Sequence",
-    "description": "Udfordrende blanding af kortspil og fem på stribe.",
-    "image": "img/games/sequence.webp",
-    "genre": "Familie"
+    "genre": "Familie",
+    "playtime": "30 min",
+    "players": "2-12",
+    "sprog": "Dansk",
+    "alder": "7+",
+    "svaerhedsgrad": "Let",
+    "regler": "Spil et kort fra hånden og læg en brik på det tilsvarende felt på brættet.",
+    "description": "Spil kort og læg brikker for at få 5 på stribe.",
+    "image": "img/games/sequence.webp"
   },
   {
     "id": 19,
     "title": "Bezzerwizzer",
-    "description": "Det ultimative danske quizspil for op til fire hold.",
-    "image": "img/games/bezzerwizzer.webp",
-    "genre": "Quiz"
+    "genre": "Quiz",
+    "playtime": "30-60 min",
+    "players": "2+",
+    "sprog": "Dansk",
+    "alder": "15+",
+    "svaerhedsgrad": "Medium",
+    "regler": "Svar på spørgsmål i 20 kategorier og stjæl modstandernes yndlingsemner.",
+    "description": "Det klassiske quizspil hvor du kan drille modstanderne.",
+    "image": "img/games/bezzerwizzer.webp"
   },
-  {
-    "id": 20,
-    "title": "Hint",
-    "description": "Tegn, mimesyn, syng og tal – få dit hold til at gætte ordet.",
-    "image": "img/games/hint.webp",
-    "genre": "Selskab"
-  },
+  
   {
     "id": 21,
     "title": "Exploding Kittens",
-    "description": "Kortspil med katte, eksplosioner og taktiske træk.",
-    "image": "img/games/explodingkittens.webp",
-    "genre": "Kortspil"
+    "genre": "Kortspil",
+    "playtime": "15 min",
+    "players": "2-5",
+    "sprog": "Dansk",
+    "alder": "7+",
+    "svaerhedsgrad": "Let",
+    "regler": "Træk kort efter tur og undgå at trække den eksploderende kat.",
+    "description": "Morsomt og taktisk russisk roulette med katte.",
+    "image": "img/games/exploding-kittens.webp"
   },
   {
     "id": 22,
     "title": "Secret Hitler",
-    "description": "Dramatisk selskabsspil om politisk intrige og bluff.",
-    "image": "img/games/secrethitler.webp",
-    "genre": "Selskab"
+    "genre": "Selskab",
+    "playtime": "45 min",
+    "players": "5-10",
+    "sprog": "Dansk",
+    "alder": "13+",
+    "svaerhedsgrad": "Medium",
+    "regler": "Find ud af hvem der er liberale og hvem der er fascister før det er for sent.",
+    "description": "Dramatisk deduktionsspil om politisk intrige.",
+    "image": "img/games/secret-hitler.webp"
   },
   {
     "id": 23,
     "title": "MicroMacro: Crime City",
-    "description": "Find spor på et gigantisk kort og opklar forbrydelser.",
-    "image": "img/games/micromacro.webp",
-    "genre": "Detektiv"
+    "genre": "Detektiv",
+    "playtime": "15-45 min",
+    "players": "1-4",
+    "sprog": "Dansk",
+    "alder": "12+",
+    "svaerhedsgrad": "Medium",
+    "regler": "Brug forstørrelsesglasset til at følge mistænkte og løse forbrydelser på det store kort.",
+    "description": "Løs forbrydelser på et kæmpe detaljeret bykort.",
+    "image": "img/games/micromacro.webp"
   },
   {
     "id": 24,
     "title": "King of Tokyo",
-    "description": "Vær et kæmpemonster og kæmp om at styre Tokyo.",
-    "image": "img/games/kingoftokyo.webp",
-    "genre": "Terning"
+    "genre": "Terning",
+    "playtime": "30 min",
+    "players": "2-6",
+    "sprog": "Dansk",
+    "alder": "8+",
+    "svaerhedsgrad": "Let",
+    "regler": "Kast terningerne for at angribe andre monstre, købe opgraderinger eller heale dig selv.",
+    "description": "Kæmp som muterede monstre om herredømmet i Tokyo.",
+    "image": "img/games/kingoftokyo.webp"
   },
   {
     "id": 25,
     "title": "Cascadia",
-    "description": "Læg brikker og dyrekort for at skabe et harmonisk økosystem.",
-    "image": "img/games/cascadia.webp",
-    "genre": "Familie"
+    "genre": "Familie",
+    "playtime": "30-45 min",
+    "players": "1-4",
+    "sprog": "Dansk",
+    "alder": "10+",
+    "svaerhedsgrad": "Let",
+    "regler": "Byg dit eget habitat med brikker og arranger dyrene så de scorer mest muligt.",
+    "description": "Skab et harmonisk økosystem i det nordamerikanske landskab.",
+    "image": "img/games/cascadia.webp"
   }
 ]
