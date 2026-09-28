@@ -87,7 +87,7 @@ function displayGame(game) {
   // 2. Byg HTML-strukturen så den matcher dit billede
   const gameHTML = /*html*/ `
     <article class="game-card" tabindex="0">
-      <img src="${game.image}" alt="Billede af ${game.title}" class="game-poster" />
+      <img src="${game.image}" alt="Billede af ${game.title}" class="game-poster" width="247" height="247" loading="lazy" decoding="async" />
       <div class="game-info">
         <h4>${game.title}</h4>
         <div class="game-meta">

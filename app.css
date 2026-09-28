@@ -319,6 +319,7 @@ footer p{
   object-fit: cover;
   background: white;
   transition: var(--transition);
+  
 }
 
 .game-card:hover .game-poster {
@@ -589,7 +590,7 @@ dialog a:focus-visible {
     display: none; 
   }
   .herosektion{ display: none;}
-  
+
   .herosektion-mobile{visibility: visible; 
     margin-bottom: 24px; 
     display: flex; 
