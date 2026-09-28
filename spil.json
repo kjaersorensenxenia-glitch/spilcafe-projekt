@@ -242,30 +242,6 @@
     "description": "Løs forbrydelser på et kæmpe detaljeret bykort.",
     "image": "img/games/micromacro.webp"
   },
-  {
-    "id": 24,
-    "title": "King of Tokyo",
-    "genre": "Terning",
-    "playtime": "30 min",
-    "players": "2-6",
-    "sprog": "Dansk",
-    "alder": "8+",
-    "svaerhedsgrad": "Let",
-    "regler": "Kast terningerne for at angribe andre monstre, købe opgraderinger eller heale dig selv.",
-    "description": "Kæmp som muterede monstre om herredømmet i Tokyo.",
-    "image": "img/games/kingoftokyo.webp"
-  },
-  {
-    "id": 25,
-    "title": "Cascadia",
-    "genre": "Familie",
-    "playtime": "30-45 min",
-    "players": "1-4",
-    "sprog": "Dansk",
-    "alder": "10+",
-    "svaerhedsgrad": "Let",
-    "regler": "Byg dit eget habitat med brikker og arranger dyrene så de scorer mest muligt.",
-    "description": "Skab et harmonisk økosystem i det nordamerikanske landskab.",
-    "image": "img/games/cascadia.webp"
-  }
+  
+ 
 ]
