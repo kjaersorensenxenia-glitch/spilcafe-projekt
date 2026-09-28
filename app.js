@@ -164,10 +164,10 @@ const spillereModal = `${minSpillere}${maxSpillere}`;
       <p class="game-genre"><strong>Kategori:</strong> ${game.genre}</p>
       <p class="game-playtime"><strong>Spilletid:</strong> ${game.playtime}</p>
       <p class="game-players"><strong>Spillere:</strong> ${spillereModal}</p>
-      <p class="game-language"><strong>Sprog:</strong> ${game.language}</p>
-      <p class="game-age"><strong>Alder:</strong> ${game.age}</p>
-      <p class="game-difficulty"><strong>Sværhedsgrad:</strong> ${game.difficulty}</p>
-      <p class="rules"><strong>Regler:</strong> ${game.rules}</p>
+      <p class="game-language"><strong>Sprog:</strong> ${game.sprog}</p>
+      <p class="game-age"><strong>Alder:</strong> ${game.alder}</p>
+      <p class="game-difficulty"><strong>Sværhedsgrad:</strong> ${game.svaerhedsgrad}</p>
+      <p class="rules"><strong>Regler:</strong> ${game.regler}</p>
     </div>
     `;
 
