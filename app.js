@@ -93,7 +93,7 @@ function displayGame(game) {
         <div class="game-meta">
           <span class="game-playtime">${game.playtime} min</span>
           <span class="game-players">
-  <img src="img/vector gruppe.svg" alt="Antal spiller" class="personer-ikon" />
+  <img src="img/vectorgruppe.svg" alt="Antal spiller" class="personer-ikon" />
   ${spillere}
 </span>
 <button class="læsmere"> Læs om spillet </button> 
