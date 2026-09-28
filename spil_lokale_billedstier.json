@@ -1,0 +1,177 @@
+[
+  {
+    "id": 1,
+    "title": "Matador",
+    "description": "Dansk klassiker inspireret af Monopoly.",
+    "image": "img/games/matador.webp",
+    "genre": "Familie"
+  },
+  {
+    "id": 2,
+    "title": "Ludo",
+    "description": "Klassisk terningspil for hele familien.",
+    "image": "img/games/ludo.webp",
+    "genre": "Familie"
+  },
+  {
+    "id": 3,
+    "title": "Uno",
+    "description": "Hurtigt og underholdende kortspil.",
+    "image": "img/games/uno.webp",
+    "genre": "Kortspil"
+  },
+  {
+    "id": 4,
+    "title": "Partners",
+    "description": "Minner om Ludo, men spilles i hold med kort.",
+    "image": "img/games/partners.webp",
+    "genre": "Strategi"
+  },
+  {
+    "id": 5,
+    "title": "Yatzy",
+    "description": "Klassisk terningspil om at samle point.",
+    "image": "img/games/yatzy.webp",
+    "genre": "Terning"
+  },
+  {
+    "id": 6,
+    "title": "Catan",
+    "description": "Byg huse, veje og byer i et episk strategispil.",
+    "image": "img/games/catan.webp",
+    "genre": "Strategi"
+  },
+  {
+    "id": 7,
+    "title": "Ticket to Ride",
+    "description": "Saml togkort og forbind byer i Nordamerika eller Europa.",
+    "image": "img/games/tickettoride.webp",
+    "genre": "Strategi"
+  },
+  {
+    "id": 8,
+    "title": "Carcassonne",
+    "description": "Læg brikker og opbyg det middelalderlige landskab.",
+    "image": "img/games/carcassonne.webp",
+    "genre": "Strategi"
+  },
+  {
+    "id": 9,
+    "title": "Codenames",
+    "description": "Morsomt ordgætte-spil for to hold.",
+    "image": "img/games/codenames.webp",
+    "genre": "Selskab"
+  },
+  {
+    "id": 10,
+    "title": "Dixit",
+    "description": "Kreativt illustreret spil med fokus på fantasi og associationer.",
+    "image": "img/games/dixit.webp",
+    "genre": "Selskab"
+  },
+  {
+    "id": 11,
+    "title": "Pandemic",
+    "description": "Samarbejd om at redde verden fra globale epidemier.",
+    "image": "img/games/pandemic.webp",
+    "genre": "Samarbejde"
+  },
+  {
+    "id": 12,
+    "title": "7 Wonders",
+    "description": "Byg dit eget antikke rige på tre tidsaldre.",
+    "image": "img/games/7wonders.webp",
+    "genre": "Strategi"
+  },
+  {
+    "id": 13,
+    "title": "Azul",
+    "description": "Smukt og strategisk brikspil inspireret af portugisiske fliser.",
+    "image": "img/games/azul.webp",
+    "genre": "Familie"
+  },
+  {
+    "id": 14,
+    "title": "Wingspan",
+    "description": "Opbyg dit eget fuglereservat i et prisbelønnet brætspil.",
+    "image": "img/games/wingspan.webp",
+    "genre": "Strategi"
+  },
+  {
+    "id": 15,
+    "title": "Terraforming Mars",
+    "description": "Forvandl den røde planet til en beboelig verden.",
+    "image": "img/games/terraformingmars.webp",
+    "genre": "Ekspert"
+  },
+  {
+    "id": 16,
+    "title": "Scythe",
+    "description": "Udforsk og erobr i et alternativt 1920'er Europa.",
+    "image": "img/games/scythe.webp",
+    "genre": "Ekspert"
+  },
+  {
+    "id": 17,
+    "title": "Splendor",
+    "description": "Saml ædelstene og opbyg din handelsvirksomhed.",
+    "image": "img/games/splendor.webp",
+    "genre": "Familie"
+  },
+  {
+    "id": 18,
+    "title": "Sequence",
+    "description": "Udfordrende blanding af kortspil og fem på stribe.",
+    "image": "img/games/sequence.webp",
+    "genre": "Familie"
+  },
+  {
+    "id": 19,
+    "title": "Bezzerwizzer",
+    "description": "Det ultimative danske quizspil for op til fire hold.",
+    "image": "img/games/bezzerwizzer.webp",
+    "genre": "Quiz"
+  },
+  {
+    "id": 20,
+    "title": "Hint",
+    "description": "Tegn, mimesyn, syng og tal – få dit hold til at gætte ordet.",
+    "image": "img/games/hint.webp",
+    "genre": "Selskab"
+  },
+  {
+    "id": 21,
+    "title": "Exploding Kittens",
+    "description": "Kortspil med katte, eksplosioner og taktiske træk.",
+    "image": "img/games/explodingkittens.webp",
+    "genre": "Kortspil"
+  },
+  {
+    "id": 22,
+    "title": "Secret Hitler",
+    "description": "Dramatisk selskabsspil om politisk intrige og bluff.",
+    "image": "img/games/secrethitler.webp",
+    "genre": "Selskab"
+  },
+  {
+    "id": 23,
+    "title": "MicroMacro: Crime City",
+    "description": "Find spor på et gigantisk kort og opklar forbrydelser.",
+    "image": "img/games/micromacro.webp",
+    "genre": "Detektiv"
+  },
+  {
+    "id": 24,
+    "title": "King of Tokyo",
+    "description": "Vær et kæmpemonster og kæmp om at styre Tokyo.",
+    "image": "img/games/kingoftokyo.webp",
+    "genre": "Terning"
+  },
+  {
+    "id": 25,
+    "title": "Cascadia",
+    "description": "Læg brikker og dyrekort for at skabe et harmonisk økosystem.",
+    "image": "img/games/cascadia.webp",
+    "genre": "Familie"
+  }
+]
