@@ -172,58 +172,10 @@
     "description": "Dekorer slottets vægge med smukke fliser.",
     "image": "img/games/azul.webp"
   },
-  {
-    "id": 14,
-    "title": "Wingspan",
-    "genre": "Strategi",
-    "playtime": "40-70 min",
-    "players": "1-5",
-    "sprog": "Dansk",
-    "alder": "10+",
-    "svaerhedsgrad": "Medium",
-    "regler": "Tiltræk fugle til dit reservat ved at skaffe mad, lægge æg og udnytte fuglenes evner.",
-    "description": "Tiltræk de bedste fugle til dit naturreservat.",
-    "image": "img/games/wingspan.webp"
-  },
-  {
-    "id": 15,
-    "title": "Terraforming Mars",
-    "genre": "Ekspert",
-    "playtime": "120 min",
-    "players": "1-5",
-    "sprog": "Dansk",
-    "alder": "12+",
-    "svaerhedsgrad": "Svær",
-    "regler": "Spil projektkort for at hæve temperaturen, iltniveauet og skabe oceaner på Mars.",
-    "description": "Gør Mars beboelig for menneskeheden.",
-    "image": "img/games/terraformingmars.webp"
-  },
-  {
-    "id": 16,
-    "title": "Scythe",
-    "genre": "Ekspert",
-    "playtime": "90-115 min",
-    "players": "1-5",
-    "sprog": "Dansk",
-    "alder": "14+",
-    "svaerhedsgrad": "Svær",
-    "regler": "Erobr land, byg mechs og administrer ressourcer i et Europa efter 1. verdenskrig.",
-    "description": "Strategisk spil i et alternativt 1920'er Europa.",
-    "image": "img/games/scythe.webp"
-  },
-  {
-    "id": 17,
-    "title": "Splendor",
-    "genre": "Familie",
-    "playtime": "30 min",
-    "players": "2-4",
-    "sprog": "Dansk",
-    "alder": "10+",
-    "svaerhedsgrad": "Let",
-    "regler": "Køb ædelstene for at tiltrække rige adelsmænd og opnå sejrspoint.",
-    "description": "Saml ædelstene og byg dit handelsimperium.",
-    "image": "img/games/splendor.webp"
-  },
+  
+   
+ 
+   
   {
     "id": 18,
     "title": "Sequence",
@@ -250,19 +202,7 @@
     "description": "Det klassiske quizspil hvor du kan drille modstanderne.",
     "image": "img/games/bezzerwizzer.webp"
   },
-  {
-    "id": 20,
-    "title": "Hint",
-    "genre": "Selskab",
-    "playtime": "45 min",
-    "players": "4+",
-    "sprog": "Dansk",
-    "alder": "15+",
-    "svaerhedsgrad": "Let",
-    "regler": "Få dit hold til at gætte ord ved at nynne, mime, tegn eller tale.",
-    "description": "Mime, tegn, nyn og tal dig til sejren.",
-    "image": "img/games/hint.webp"
-  },
+  
   {
     "id": 21,
     "title": "Exploding Kittens",
@@ -274,7 +214,7 @@
     "svaerhedsgrad": "Let",
     "regler": "Træk kort efter tur og undgå at trække den eksploderende kat.",
     "description": "Morsomt og taktisk russisk roulette med katte.",
-    "image": "img/games/explodingkittens.webp"
+    "image": "img/games/exploding-kittens.webp"
   },
   {
     "id": 22,
@@ -287,7 +227,7 @@
     "svaerhedsgrad": "Medium",
     "regler": "Find ud af hvem der er liberale og hvem der er fascister før det er for sent.",
     "description": "Dramatisk deduktionsspil om politisk intrige.",
-    "image": "img/games/secrethitler.webp"
+    "image": "img/games/secret-hitler.webp"
   },
   {
     "id": 23,
