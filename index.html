@@ -13,68 +13,80 @@
     <header>
       <a  href="index.html"><img src="img/spilcafe.logo.webp" alt="Spilcaféen, gå til forsiden"/></a>
       <h1>brætspilscafe</h1>
-      <a href="#book" class="bookknap">Book bord</a>
+      <a href="Tlf:43280913" class="bookknap">Book bord</a>
     </header>
 
+   
     <main>
-      <!-- Filter bar med alle filtreringsmuligheder -->
-      <section class="filterbar">
-        <!-- Øverste række: Søg og genre -->
-        <div class="filter-row-main">
-          <div class="filter-group search-group">
-            <label for="search-input"> Søg</label>
-            <input type="text" id="search-input" placeholder="Søg efter et spil..." />
-          </div>
-
-          <div class="filter-group">
-            <label for="genre-select"> Kategori</label>
-            <select id="genre-select">
-              <option value="all">Alle kategorier</option>
-              <!-- Kategorier indsættes dynamisk via JavaScript -->
-            </select>
-          </div>
-
-          <div class="filter-group">
-            <label for="sort-select"> Sortering</label>
-            <select id="sort-select">
-              <option value="none">Ingen sortering</option>
-              <option value="title">Titel (A-Å)</option>
-              <option value="rating">Rating (højeste først)</option>
-            </select>
-          </div>
-        </div>
-
-          <!-- Rating range filter -->
-          <div class="filter-group range-group">
-            <label class="range-label"> Rating</label>
-            <div class="range-inputs">
-              <input type="number" id="rating-from" placeholder="0.0" min="0" max="10" step="0.1" />
-              <span class="range-separator">→</span>
-              <input type="number" id="rating-to" placeholder="10.0" min="0" max="10" step="0.1" />
-            </div>
-          </div>
-
-          <!-- Ryd alle filtre knap -->
-          <button id="clear-filters" class="clear-btn">
-            <span class="btn-icon">🗑️</span>
-            <span class="btn-text">Nulstil filtre</span>
-          </button>
-        </div>
+      <section class="herosektion-mobile">
+        <img src="img/terning.svg.svg" alt="">
+<div>
+        <h2  class="overskrift-mobil">brætspilscafe</h2>
+        <p  class="tekst-mobil"> Udforsk vores verden af spil</p>
+</div>
       </section>
 
+       <section class="herosektion">
+        <div class="herotekst">
+      <h2>Slap af og <br>Hyg dig </h2>
+      <p>Slut med scrolling, 
+        nu skal der rulles med terninger! 
+        Kom forbi og få en hyggelig stund med de mennesker, du holder af, over et godt brætspil. 
+        Alene, som par eller med hele banden er du velkommen.
+         Vi har bordet klar. </p></div>
+         <img src="img/kort-svg.svg" alt="" class="kortspil">
+    </section>
+    <section class="knapper">
+      <a href="https://www.google.com/maps/place/Spilcaf%C3%A9en+Aarhus+-+Vestergade/@56.1575712,10.2011844,17z/data=!3m1!4b1!4m6!3m5!1s0x464c3f949fbc331b:0x511589b973e0df80!8m2!3d56.1575712!4d10.2011844!16s%2Fg%2F11bv6pb3pm?entry=ttu&g_ep=EgoyMDI2MDkyMy4wIKXMDSoASAFQAw%3D%3D" class="grønknap">Find lokation</a>
+      <a href="Tlf:43280913" class="grønknap">Book bord</a>
+
+    </section>
+
+      <!-- Filter bar med alle filtreringsmuligheder -->
+      <section class="filterbar">
+
+        <h3>Spiloversigt</h3>
+        <p class="spiloversigtekst">vores fulde samling af brætspil — søg efter et bestemt spil, eller vælg en kategori som familiespil, eventyr eller strategi.
+          </p>
+        <!-- Øverste række: Søg og genre -->
+        <form class="filter-row-main" role="search" >
+         <label class="søg"> 
+         <img src="img/Vector.svg" alt="" class="ikon">
+            <input type="text" id="search-input" list="spilforslag" placeholder="Søg efter et spil..." 
+            aria-label="Søg efter spil" /> 
+          <datalist id="spilforslag"></datalist> </label>
+      
+
+         <select id="genre-select" aria-label="Kategori" >
+      <option value="all">Vælg kategori</option>
+    </select>
+  </form>
+</section>
+
+          
+      
+
       <!-- spil grid -->
-      <section id="game-list" class="game-grid">
+      <section id="game-list">
         <!-- spil vil blive indsat her dynamisk -->
       </section>
     </main>
 
     <!-- Footer -->
     <footer>
-      <p>© RACE - Rasmus Cederdorff</p>
+      <div>
+      <p>Kontakt os: <br>
+Tlf:43280913</p>
+</div>
+<div class="socialemedier">
+<a href="https://www.facebook.com/"><img src="img/facebook.svg" alt="Facebook logo, gå til Facebook"></a>
+<a href="https://www.instagram.com/"> <img src="img/Instergram.svg" alt="Instagram logo, gå til Instagram"></a>
+</div>
+
     </footer>
 
     <!-- Game Detail Modal -->
-    <dialog id="game-dialog">
+    <dialog id="game-dialog" aria-labelledby="dialog-title">
       <form method="dialog">
         <button id="close-dialog" aria-label="Close">✕</button>
         <div id="dialog-content">

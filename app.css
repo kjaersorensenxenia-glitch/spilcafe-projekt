@@ -10,20 +10,18 @@
 
   /* Text - colors */
   --primary-text: white;
-  --secondary-text: black;
+  --secondary-text:#492E2E;
 
   /* Backgrounds */
   --background: #505C38;
   --background-card: #FFF6F1;
 
   /* Semantic */
-  --warning: #F9DB25;
   --error: #ea4335;
 
   /* Effects */
   --shadow: 0 4px 6px -1px rgba(255, 0, 0, 0.255);
-  --shadow-lg: 0 10px 15px -3px rgb(0, 0, 0);
-  --radius: 1rem;
+   --radius: 1rem;
   --transition: 250ms ease;
 }
 
@@ -42,7 +40,7 @@ body {
   font-size: 12px;
   line-height: 1;
   background: var(--third-color);
-  color: var(--text);
+  color: var(--secondary-text);
   min-height: 100vh;
 
 }
@@ -51,117 +49,143 @@ body {
    LAYOUT (main container)
    ===================== */
 main {
-  max-width: min(1400px, 95vw);
+max-width: 1400px;
   margin: 0 auto;
-  padding: clamp(5rem, 10vw, 8rem) 1rem 2rem;
+  padding: 50px 24px 32px;
 }
+
+.herosektion {
+  text-align: start;
+   color: var(--secondary-text);
+  
+   display: flex;
+   align-items: center;
+  justify-content: center;
+  gap: 48px;
+  margin-bottom: 32px;
+   }
+
+.herosektion h2{ font-size: 60px;
+margin-bottom: 20px; line-height: 1;}
+
+.herosektion p{
+  font-size: 18px;
+  line-height: 1.6;
+  letter-spacing: 1px;
+  max-width: 500px;
+}
+.kortspil {
+  width: 320px;
+  max-width: 100%;
+  height: auto;
+}
+.knapper{display: flex;
+ justify-content: space-between;
+  align-items: center;
+  width: 100%;
+ padding: 0 130px;}
+
+.grønknap{background-color: var(--background); 
+  color: var(--primary-text);
+ font-family: 'Trebuchet MS', sans-serif;
+  font-size: 18px;
+  font-weight: 700;
+  text-decoration: none;
+padding: 40px 32px;
+  border: none;
+  border-radius: 20px;
+cursor: pointer;}
+
+.grønknap:hover{ background-color: #971417; text-decoration: underline;}
 
 /* =====================
    FILTERBAR (SØG/SORT/FILTER)
    ===================== */
 .filterbar {
-  background: var(--primary-color);
-  border-radius: var(--radius);
-  padding: 1.5rem;
-  margin-bottom: 2rem;
-  box-shadow: var(--shadow-lg);
-  border: 1px solid white;
+  margin-bottom: 32px;
+  text-align: center;
+  
+
+}
+.filterbar h3 { font-size: 40px; 
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+color: var(--secondary-text); 
+font-weight: 400; 
+margin-bottom: 16px;}
+
+.spiloversigtekst{
+  font-size: 16px;
+  color: var(--secondary-text);
+  line-height: 24px;
+  max-width: 800px;
+  margin: 0 auto 32px;
+  text-align: center;
 }
 
 /* Filter rækker */
 .filter-row-main {
   display: grid;
-  grid-template-columns: 2fr 1fr 1fr;
-  gap: 1rem;
-  margin-bottom: 1rem;
+  grid-template-columns:  1fr 1fr;
+  gap: 32px;
+  
 }
 
-.filter-row-ranges {
-  display: grid;
-  grid-template-columns: 1fr 1fr auto;
-  gap: 1rem;
-  align-items: end;
-}
 
 /* Filter grupper */
-.filter-group {
-  display: flex;
-  flex-direction: column;
-  gap: 0.5rem;
-}
-
-.filter-group label {
-  font-family: "poppins";
-  font-size: large;
-  font-weight: 100;
-  color: var(--primary-text);
+.søg{
   display: block;
-  letter-spacing: 5px;
+  position: relative;
+}
+.søg .ikon {
+  position: absolute;
+  left: 20px;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 20px;
+  height: 20px;
 }
 
-/* Range grupper */
-.range-group {
-  flex: 1;
-}
 
-.range-label {
-  margin-bottom: 0.5rem;
-}
 
-.range-inputs {
-  display: flex;
-  align-items: center;
-  gap: 0.5rem;
-}
 
-.range-separator {
-  color: var(--secondary-color);
-  font-weight: bold;
-  font-size: 1.2rem;
-}
+
+
 
 /* Input felter styling */
 #search-input,
-#genre-select,
-#sort-select,
-#rating-from,
-#rating-to {
-  background: rgb(125, 20, 20);
-  color: var(--primary-text);
+#genre-select {
+  background: white;
+  color: #746E6E;
   border: 1px solid rgba(172, 198, 201, 0.3);
   border-radius: calc(var(--radius) * 0.5);
-  padding: 0.75rem 1rem;
+  padding: 14px 20px;
   font-size: 1rem;
-  transition: var(--transition);
-  width: 100%;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+   width: 100%;
+}
+#search-input {
+  padding-left: 52px;
 }
 
-#search-input:focus,
-#genre-select:focus,
-#sort-select:focus,
-#rating-from:focus,
-#rating-to:focus {
-  outline: none;
-  border-color: var(--third-color);
-  box-shadow: 0 0 0 3px rgba(172, 198, 201, 0.2);
-}
 
-#search-input::placeholder,
-#rating-from::placeholder,
-#rating-to::placeholder {
-  color: var(--primary-text);
+
+
+#search-input::placeholder
+ { 
+  color: var(#746E6E);
   opacity: 0.6;
 }
 
-#genre-select,
-#sort-select {
+#genre-select {
   cursor: pointer;
 }
 
-/* Search group særlig styling */
-.search-group {
-  grid-column: 1 / 2;
+#search-input:focus-visible,
+#genre-select:focus-visible {
+  outline: 3px solid #505C38;
+  outline-offset: 3px;
 }
+
 
 /* =====================
    HEADER & FOOTER
@@ -172,7 +196,7 @@ header {
   padding: 8px 0;
   display: flex;
   justify-content: space-around;
-  position: fixed;
+  position: sticky;
   top: 0;
   left: 0;
   right: 0;
@@ -201,11 +225,13 @@ margin-bottom: 8px;}
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 font-size: 16px;
 font-weight: bold;
-cursor: pointer;}
+cursor: pointer;
+text-decoration: none;}
 
 .bookknap:hover {
   background-color: #971417;
   color: #FFF6F1;
+  text-decoration: underline;
 }
     
 
@@ -213,7 +239,8 @@ cursor: pointer;}
 footer {
   background: var(--primary-color);
   color: var(--primary-text);
-  text-align: center;
+  display: flex;
+  justify-content: space-between;
   padding: 2rem 1rem;
   margin-top: 4rem;
 }
@@ -221,22 +248,34 @@ footer {
 footer p{
   font-size: small;
 }
+.socialemedier {
+  display: flex;
+  gap: 12px;
+  align-items: center;
+}
+
+.socialemedier img {
+  width: 32px;
+  height: 32px;
+}
 
 
-/* (main er allerede defineret ovenfor - dublet fjernet) */
+
 
 /* =====================
    MOVIE GRID & CARDS
    ===================== */
 #game-list {
   display: grid;
-  grid-template-columns: 1fr;
-  gap: clamp(1.5rem, 3vw, 2.5rem);
+  grid-template-columns: repeat(auto-fill, minmax(240px, 1fr)); 
+  gap: 2rem;
   padding: 2rem 0;
+  max-width: 1200px; 
+  margin: 0 auto;    
 }
 @media (min-width: 600px) {
   #game-list {
-    grid-template-columns: 1fr 1fr;
+  grid-template-columns: repeat(auto-fill, minmax(140px, 1fr));
   }
 }
 @media (min-width: 992px) {
@@ -246,23 +285,26 @@ footer p{
 }
 @media (min-width: 1400px) {
   #game-list {
-    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-columns: repeat(auto-fill, minmax(20px, 1fr));
+    gap: 1.5rem;
+  padding: 2rem 0;
   }
 }
 
 .game-card {
   background: var(--background);
   border-radius: var(--radius);
-  box-shadow: var(--shadow);
+  box-shadow: 0.06;
   overflow: hidden;
   transition: var(--transition);
   cursor: pointer;
   border: 1px solid rgba(255, 255, 255, 0.2);
+  color: var(--background-card);
 }
 
 .game-card:hover {
-  transform: translateY(-8px) scale(1.02);
-  box-shadow: var(--shadow-lg);
+  transform: translateY(-2px) scale(1.02);
+  box-shadow: 0.06;
   border-color: var(--primary-color);
 }
 
@@ -273,7 +315,7 @@ footer p{
 
 .game-poster {
   width: 100%;
-  height: 400px;
+  height: 270px;
   object-fit: cover;
   background: white;
   transition: var(--transition);
@@ -283,14 +325,37 @@ footer p{
   transform: scale(1.05);
 }
 
-.game-info {
-  padding: 1.5rem;
-}
+.game-playtime{ font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+font-size: 16px; padding-right: 18px;}
 
-.game-info h3 {
+.game-players{ font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+font-size: 16px;
+padding-right: 16px;}
+.game-info {
+  padding: 1rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+
+}
+.personer-ikon {
+  width: 14px;
+  height: 14px;}
+  
+  .læsmere{ font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; 
+  font-size: 14px;
+   color: var(--background-card); 
+   border: none; background: none;
+display: block;
+ text-decoration: underline;
+cursor: pointer; 
+padding-top: 8px;
+padding-left: 20px;}
+
+.game-info h4 {
   font-size: clamp(1.125rem, 2vw, 1.375rem);
   font-weight: 600;
-  color: var(--secondary-text);
+  color: var(--background-card);
   display: flex;
   align-items: flex-start;
   justify-content: space-between;
@@ -299,35 +364,19 @@ footer p{
 }
 
 
-.game-genre {
-  color: var(--secondary-color);
-  font-size: 0.9rem;
-  margin-bottom: 0.75rem;
-}
 
-.game-rating {
-  color: var(--warning);
-  font-weight: 400;
-  margin-bottom: 0.5rem;
-  display: flex;
-  align-items: center;
-  gap: 0.25rem;
-}
 
-.game-rating::before {
-  content: "⭐";
-}
+
 
 
 /* =====================
    MOVIE DIALOG
    ===================== */
 dialog#game-dialog {
-  font-family: "poppins";
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
   font-size: medium;
   border: none;
   border-radius: var(--radius);
-  box-shadow: var(--shadow-lg);
   padding: 0;
   max-width: min(95vw, 1000px);
   max-height: 90vh;
@@ -412,9 +461,9 @@ dialog#game-dialog::backdrop {
 }
 
 #dialog-content h2 {
-  font-size: clamp(1.5rem, 4vw, 2.25rem);
+ font-size: 28px;
   font-weight: 700;
-  color: var(--text);
+  color: var(--background-card);
   line-height: 1.2;
   margin: 0 0 1rem 0;
 }
@@ -423,34 +472,30 @@ dialog#game-dialog::backdrop {
 #dialog-content p {
   color: var(--primary-text);
   line-height: 1.6;
-  margin: 0 0 1rem 0;
+  margin: 0 0 12px;
 }
 
 #dialog-content p strong {
-  color: var(--primary-text);
-  font-weight: 600;
+  color: var(--background-card);
+  font-weight: 500;
 }
 
 #dialog-content .game-genre {
-  color: var(--secondary-text);
+  color: var(--background-card); 
   font-weight: 500;
   font-size: 1.1rem;
 }
 
-#dialog-content .game-rating {
-  color: var(--warning);
-  font-weight: 600;
-  font-size: 1.125rem;
-  display: flex;
-  align-items: center;
-  gap: 0.5rem;
+
+
+dialog button:focus-visible,
+dialog a:focus-visible {
+  outline: 3px solid white;
+  outline-offset: 3px;
 }
 
-@media (max-width: 768px) {
-  #dialog-content .game-rating {
-    justify-content: center;
-  }
-}
+
+
 
 .game-description {
   color: var(--primary-text) !important;
@@ -464,52 +509,11 @@ dialog#game-dialog::backdrop {
   font-style: italic;
 }
 
-/* =====================
-   CLEAR FILTERS BUTTON
-   ===================== */
-#clear-filters {
-  background: linear-gradient(135deg, var(--error) 0%, #c62828 100%);
-  color: white;
-  border: none;
-  border-radius: calc(var(--radius) * 0.5);
-  padding: 0.875rem 1.5rem;
-  font-size: 0.95rem;
-  font-weight: 600;
-  transition: var(--transition);
-  cursor: pointer;
-  display: flex;
-  align-items: center;
-  gap: 0.5rem;
-  white-space: nowrap;
-  box-shadow: var(--shadow);
-}
 
-#clear-filters:hover {
-  transform: translateY(-2px);
-  box-shadow: var(--shadow-lg);
-  background: linear-gradient(135deg, #c62828 0%, #b71c1c 100%);
-}
-
-#clear-filters:active {
-  transform: translateY(0);
-}
-
-#clear-filters:focus {
-  outline: none;
-  box-shadow: 0 0 0 3px rgba(234, 67, 53, 0.3);
-}
-
-.btn-icon {
-  font-size: 1.1rem;
-}
-
-.btn-text {
-  font-size: 0.95rem;
-}
 
 .no-results {
   text-align: center;
-  color: var(--primary-text);
+  color: var(--secondary-text);
   font-size: 1.2rem;
   margin: 2rem 0;
   padding: 2rem;
@@ -526,14 +530,9 @@ dialog#game-dialog::backdrop {
     gap: 1rem;
   }
 
-  .filter-row-ranges {
-    grid-template-columns: 1fr;
-    gap: 1rem;
-  }
+ 
 
-  #clear-filters {
-    justify-content: center;
-  }
+ 
 }
 
 @media (max-width: 600px) {
@@ -541,37 +540,127 @@ dialog#game-dialog::backdrop {
     padding: 1rem;
   }
 
-  .range-inputs {
-    flex-direction: column;
-    gap: 0.5rem;
-  }
 
-  .range-separator {
-    transform: rotate(90deg);
-  }
-
-  #clear-filters {
-    padding: 1rem;
-    width: 100%;
-  }
 }
 
+.herosektion-mobile{
+  display: none;
+ justify-content: center; 
+ align-items: center;}
 /* =====================
    RESPONSIVE & ACCESSIBILITY
    ===================== */
-@media (max-width: 480px) {
+@media (max-width: 600px) {
+
   #game-list {
-    grid-template-columns: 1fr;
-    gap: 1.5rem;
+  grid-template-columns: repeat(auto-fill, minmax(140px, 1fr));
   }
-  .game-card {
-    max-width: 350px;
-    margin: 0 auto;
+
+  
+.game-poster {
+    height: 140px;
   }
+
+  .game-info {
+    padding: 8px 12px;
+    display: block;
+  }
+
+  .game-info h4 {
+    display: block;
+    margin: 0 0 4px;
+  }
+
+  .game-meta {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 2px 8px;
+  }
+ .læsmere {
+    display: block;
+    margin-top: 2px;
+    text-align: left;
+       padding-left: 0;
+  }
+
+
   header h1 {
-    font-size: 1.75rem;
+    display: none; 
+  }
+  .herosektion{ display: none;}
+  
+  .herosektion-mobile{visibility: visible; 
+    margin-bottom: 24px; 
+    display: flex; 
+    flex-direction: column;
+  align-items: center;
+  text-align: center; }
+
+  .grønknap{ display: none;}
+
+  .overskrift-mobil{font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  color: var(--secondary-text); 
+  font-weight: 600; 
+  font-size: 24px;
+margin-top: 10px;}
+.herosektion-mobile img {
+  width: 36px;
+  height: 36px;
+  margin-bottom: 8px;
+}
+
+  .tekst-mobil{ font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  color: var(--secondary-text); font-weight: 200; font-size: 14px;;}
+  
+  .herosektion-mobile::after {
+  content: "";
+  display: block;
+  width: 48px;
+  height: 2px;
+  background: var(--primary-color);
+  margin: 24px auto 0;
+  opacity: 0.6;
+}
+  .filterbar h3{ font-size: 24px; margin-top: 8px;}
+
+  .spiloversigtekst {
+  text-align: left;
+  margin: 0 auto 24px;
+}
+
+.filter-row-main {
+  background: white;
+  border-radius: 24px;
+  padding: 16px;
+ 
+}
+}
+
+@media (max-width: 400px) {
+  header {
+    padding: 4px 12px;
+  }
+
+  header img {
+    width: 60px;
+  }
+
+  .bookknap {
+    padding: 6px 14px;
+    font-size: 14px;
+  }
+  .game-poster { 
+    height: 100px;
+  }
+  .herosektion-mobile img{ display: none;}
+  .herosektion-mobile{ 
+    margin:0;
   }
 }
+
+
+
 
 /* Focus styles for keyboard navigation */
 .game-card:focus-visible,
@@ -583,15 +672,29 @@ dialog#game-dialog::backdrop {
 /* =====================
    DARK MODE ADJUSTMENTS
    ===================== */
-@media (prefers-color-scheme: dark){
-  .game-year {
-    background: var(--primary-color);
-    color: var(--third-color);
+@media (prefers-color-scheme: dark) {
+  :root {
+    --third-color: #1E1E1E;
+    --secondary-text: #F0F0F0;
+    --background-card: #2A2A2A;
   }
-  #dialog-content .game-year {
-    background: var(--primary-color);
-    color: var(--third-color);
+
+  body {
+    background: var(--third-color);
+    color: var(--secondary-text);
   }
+
+  #search-input,
+  #genre-select {
+    background: #2A2A2A;
+    color: #F0F0F0;
+    border-color: rgba(255, 255, 255, 0.2);
+  }
+
+  .filter-row-main {
+    background: #2A2A2A;
+  }
+
   #close-dialog {
     background: rgba(23, 23, 23, 0.9);
   }
