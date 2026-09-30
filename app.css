@@ -242,11 +242,12 @@ footer {
   display: flex;
   justify-content: space-between;
   padding: 2rem 1rem;
-  margin-top: 4rem;
+  margin-top: 10px
 }
 
 footer p{
-  font-size: small;
+  font-size: 14px;
+  line-height: 20px;
 }
 .socialemedier {
   display: flex;
@@ -526,15 +527,19 @@ dialog a:focus-visible {
   display: flex;
   justify-content: center;
   align-items: center;
+   margin-top: 60px;
+   background-color: var(--primary-color);
+   padding: 30px;
+   border-radius: 10px;
   
 }
 .Åbningstider h4{ font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-  font-size: 24px; font-weight: 500; margin-bottom: 10px;
+  font-size: 24px; font-weight: 500; margin-bottom: 10px; color: var(--background-card);
 
 }
 .Åbningstider p{
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-  font-size: 16px; font-weight: 300; line-height: 30px;
+  font-size: 16px; font-weight: 300; line-height: 30px; color: var(--background-card);
 }
 .Åbningstider div {
   display: flex;
