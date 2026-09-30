@@ -522,6 +522,26 @@ dialog a:focus-visible {
   border-radius: var(--radius);
 }
 
+.Åbningstider{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+}
+.Åbningstider h4{ font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-size: 24px; font-weight: 500; margin-bottom: 10px;
+
+}
+.Åbningstider p{
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-size: 16px; font-weight: 300; line-height: 30px;
+}
+.Åbningstider div {
+  display: flex;
+  flex-direction: column;
+}
+
+
 /* =====================
    RESPONSIVE FILTERBAR
    ===================== */
@@ -584,6 +604,8 @@ dialog a:focus-visible {
     text-align: left;
        padding-left: 0;
   }
+
+  
 
 
   header h1 {
