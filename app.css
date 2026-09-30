@@ -698,34 +698,5 @@ margin-top: 10px;}
   outline-offset: 2px;
 }
 
-/* =====================
-   DARK MODE ADJUSTMENTS
-   ===================== */
-@media (prefers-color-scheme: dark) {
-  :root {
-    --third-color: #1E1E1E;
-    --secondary-text: #F0F0F0;
-    --background-card: #2A2A2A;
-    --card-text: #FFF6F1;
-  }
 
-  body {
-    background: var(--third-color);
-    color: var(--secondary-text);
-  }
 
-  #search-input,
-  #genre-select {
-    background: #2A2A2A;
-    color: #F0F0F0;
-    border-color: rgba(255, 255, 255, 0.2);
-  }
-
-  .filter-row-main {
-    background: #2A2A2A;
-  }
-
-  #close-dialog {
-    background: rgba(23, 23, 23, 0.9);
-  }
-}
