@@ -7,6 +7,7 @@
   --primary-color: #505C38;
   --secondary-color: #000000;
   --third-color: #FFF6F1;
+  --card-text: #FFF6F1;
 
   /* Text - colors */
   --primary-text: white;
@@ -705,6 +706,7 @@ margin-top: 10px;}
     --third-color: #1E1E1E;
     --secondary-text: #F0F0F0;
     --background-card: #2A2A2A;
+    --card-text: #FFF6F1;
   }
 
   body {
